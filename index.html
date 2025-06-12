@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation flottante -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section class="section">
+        <div class="container">
+            <h1>Bienvenue sur le portfolio de Noé</h1>
+            <p class="subtitle">Développeur en 1ère année de BUT Informatique</p>
+
+            <!-- Carrousel refait -->
+            <div class="carousel">
+                <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="images/PuissanceX.png" alt="Puissance X" style="background:#23272f;object-fit:contain;max-height:400px;max-width:100%;display:block;" />
+                            <h3 style="text-align:center;">PuissanceX</h3>
+                            <p class="carousel-desc">PuissanceX est un projet de jeu interactif inspiré du célèbre jeu Puissance 4, développé pour démontrer mes compétences en développement.</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/siteWeb.png" alt="Site E-commerce de Skis" style="background:#23272f;object-fit:contain;max-height:400px;max-width:100%;display:block;" />
+                            <h3 style="text-align:center;">Site E-commerce de Skis</h3>
+                            <p class="carousel-desc">Site web de e-commerce pour la vente de skis, avec gestion du panier, filtres de recherche et affichage dynamique des produits.</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/Pauvocoder.png" alt="Pauvocoder" style="background:#23272f;object-fit:contain;max-height:400px;max-width:100%;display:block;" />
+                            <h3 style="text-align:center;">Pauvocoder</h3>
+                            <p class="carousel-desc">Projet de Pauvovoder permettant de transformer la voix , avec différentes options d'effets et une interface graphique.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <!-- Déplacement des boutons ici -->
+            <div class="cta-buttons">
+                <a href="projets.html" class="btn primary">Voir mes projets</a>
+                <a href="contact.html" class="btn secondary">Me contacter</a>
+            </div>
+
+            <!-- Ajout d'un espacement -->
+            <div class="spacer"></div>
+        </div>
+    </section>n 
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portfolio de Sonet Noé. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
