@@ -15,7 +15,7 @@ Ce site web est un portfolio interactif et responsive développé avec les techn
 ## 🚀 Technologies utilisées
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript (vanilla)  
 *(ou ajoute React/Vite si tu l’as utilisé)*
 
